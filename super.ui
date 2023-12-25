@@ -481,7 +481,7 @@
                  </property>
                  <property name="icon">
                   <iconset>
-                   <normaloff>../../Downloads/png-transparent-computer-icons-setting-icon-cdr-svg-setting-icon.png</normaloff>../../Downloads/png-transparent-computer-icons-setting-icon-cdr-svg-setting-icon.png</iconset>
+                   <normaloff>png-transparent-computer-icons-setting-icon-cdr-svg-setting-icon.png</normaloff>png-transparent-computer-icons-setting-icon-cdr-svg-setting-icon.png</iconset>
                  </property>
                  <property name="iconSize">
                   <size>
@@ -682,7 +682,7 @@
                  </property>
                  <property name="icon">
                   <iconset>
-                   <normaloff>../../Downloads/pngwing.com.png</normaloff>../../Downloads/pngwing.com.png</iconset>
+                   <normaloff>pngwing.com.png</normaloff>pngwing.com.png</iconset>
                  </property>
                  <property name="iconSize">
                   <size>
