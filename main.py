@@ -49,7 +49,7 @@ class Ui(QtWidgets.QWidget):
                     self.id = id[0]["id"]
                     print(self.id)
                     self.toChat()
-                    self.contactTimer.start(1000)
+                    self.contactTimer.start(10000)
                 else:
                     self.error_dialog.showMessage("Неверный логин или пароль")
 
@@ -186,7 +186,7 @@ class Ui(QtWidgets.QWidget):
             self.messageTimer.stop()
         self.targetContact = id
         self.chatNameLabel_2.setText(login)
-        self.messageTimer.start(1000)
+        self.messageTimer.start(10000)
         self.displayMessages()
     def clear_layout(self,layout):
         while layout.count():
@@ -201,14 +201,7 @@ class Ui(QtWidgets.QWidget):
     def displayMessages(self):
         self.clear_layout(self.Messages_layout)
         try:
-            connection = pymysql.connect(
-                host='127.0.0.1',
-                port=3306,
-                user='root',
-                password='1234',
-                database='mess',
-                cursorclass=pymysql.cursors.DictCursor
-            )
+            connection = pymysql.connect(host='sql11.freesqldatabase.com',port=3306,user='sql11672679',password='5j1cAxNMdR',database='sql11672679',cursorclass=pymysql.cursors.DictCursor)
             print("successfully connected...")
             print("#" * 20)
 
